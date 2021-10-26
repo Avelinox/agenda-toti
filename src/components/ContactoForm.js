@@ -55,7 +55,7 @@ export default class ContactoForm extends Component {
                 </div>
 
                 <div className="form-group mx-sm-3 mb-2">
-                    <label>Correo</label>
+                    <label>Correo:</label>
                     <input type="text" 
                     className="form-control" 
                     name="email"
