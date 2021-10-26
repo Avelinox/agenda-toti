@@ -11,6 +11,11 @@ export default class ContactoForm extends Component {
     
     onSubmit = (e) => {
         this.props.addContacto(this.state.nombre, this.state.numero, this.state.email);
+        this.setState({
+            nombre: '',
+            numero: '',
+            email: ''
+        })
         e.preventDefault();
     }
 
